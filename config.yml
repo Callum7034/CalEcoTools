@@ -1,0 +1,28 @@
+########################################
+#                                      #
+#             CalEcoTools              #
+#           Made By CallumR            #
+#        Callum#1234 on Discord        #
+#                                      #
+########################################
+
+#This determines whether VoidChests will be enabled on the server
+#The Config options for VoidChests are in voidchests.yml
+voidChest: true
+
+#This determines whether SellWands will be enabled on the server
+#The Config options for SellWands are in sellwands.yml
+sellWands: true
+
+#This determines whether Harvester Hoes will be enabled on the server
+#The Config options for Harvester Hoes are in harvesterhoes.yml
+harvesterHoes: true
+
+#This determines whether CondenseWands will be enabled on the server
+#The Config options for CondenseWands are in condensewands.yml
+condenseWands: true
+
+#Shop Hook where prices are retrieved from
+#Current Options: ShopGUIPlus
+#More options will be added at a later date
+shopHook: ShopGUIPlus

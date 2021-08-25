@@ -1,0 +1,27 @@
+name: CalEcoTools
+main: com.rcallum.CalEcoTools.CalEcoTools
+description: Made by Callum703
+version: 1.0
+author: Callum703
+depend: [ShopGUIPlus]
+softdepend: [PlaceholderAPI, WildStacker]
+commands:
+  CalEcoTools:
+    description: Main Plugin Command
+    aliases: [cet, ecotools, et]
+  vcupgrade:
+    description: Upgrade item
+  pickupupgrade:
+    description: Upgrade item
+  voidchest:
+    description: Void Chest Commands
+  sellwand:
+    description: Sell Wand Command
+  harvesterhoe:
+    description: harvester hoe Command
+  condensewand:
+    description: condense wand Command
+  autosell:
+    description: Toggles autosell
+  canetop:
+    description: Top Cane

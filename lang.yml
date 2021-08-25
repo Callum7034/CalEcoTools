@@ -1,0 +1,36 @@
+#Lang File CalEcoTools
+prefix: '&b&lCalEcoTools &7> '
+
+#Commands
+NoPerm: '&cYou do not have permission to use this command'
+NoPlayer: '&cPlayer does not exist or could not be found'
+
+#Void Chests
+VoidChestSent: '&aSuccessfully sent a void chest'
+VoidChestRecieved: '&aYou have recieved a void chest'
+VoidChestPlaced: '&aYou have placed a void chest'
+CannotPlaceVoidChest: '&cYou cannot place a void chest here'
+CannotBreakVoidChest: '&cPlease use the GUI to remove Void Chests'
+NotYourVoidChest: '&cOnly the owner can access this Void Chest'
+
+#SellWand
+SellWandSent: '&aSuccessfully sent a Sell Wand'
+SellWandRecieved: '&aYou have recieved a Sell Wand'
+NothingInChest: '&cNo sellable items were found'
+
+#Condense Wands
+CondenseWandSent: '&aSuccessfully sent a Condense Wand'
+CondenseWandRecieved: '&aYou have recieved a Condense Wand'
+NothingInChestCondense: '&cNo condensable items were found'
+CondensedItems: '&aContents have been condensed  &7&o (( %ingots% &f&oitems into &7&o%blocks% &f&oblocks &7&o))'
+
+#HarvesterHoe
+HarvesterHoeSent: '&aSuccessfully sent a Harvester Hoe'
+HarvesterHoeRecieved: '&aYou have recieved a Harvester Hoe'
+NotEnoughTokens: '&cYou do not have enough tokens to purchase this upgrade'
+
+#Upgrade
+UpgradeSent: '&aSuccessfully sent an Upgrade'
+UpgradeRecieved: '&aYou have recieved a Upgrade item'
+SuccessfulUpgrade: '&aSuccessfully upgraded void chest'
+AlreadyUpgrade: '&cThis void chest has already been upgraded'

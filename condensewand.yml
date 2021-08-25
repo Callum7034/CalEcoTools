@@ -1,0 +1,22 @@
+#Config for Condense Wands
+#To enable or disable condense wands check the main config.yml
+
+#The actual item that the condense wand is
+ItemType: BLAZE_ROD
+
+#Make the wands have an enchanted effect
+Glow: true
+
+
+ItemName: '&6&l[!] &eCondense Wand'
+Lore: 
+  - '&eUses: &3%uses%'
+  - '  &7-----------------------------------'
+  - ' '
+  - '    &a- Condense Wands will &fcondense &aall the contents of a chest'
+  - ' '
+  - '    &b- Right click on a chest holding this &fCondense wand '
+  - '                    &bto condense all items in the chest'
+
+#What will show instead of the number in the lore of the sell wand
+infiniteUses: 'Infinite'

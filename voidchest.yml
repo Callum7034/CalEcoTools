@@ -1,0 +1,53 @@
+#Config for Void Chests
+#To enable or disable void chests check the main config.yml
+
+ItemName: '&6&l[!] &eVoid Chest &7(( Place me )) '
+Lore: 
+  - '&eCurrent Multiplier: &3%multiplier%x'
+  - '&eAuto-Pickup: &3%autopickup%'
+  - '  &7-----------------------------------'
+  - ' '
+  - '    &a- Void Chests will &fsell &aany item which is placed inside of it'
+  - ' '
+  - '    &b- Clicking on a void chest with an &fupgrade token '
+  - '                    &bwill increase the sell multiplier'
+  - ' '
+  - '    &a- Click on a sell chest to acess its &fGUI'
+  
+#Token Multipliers are enabled or not
+#Default: true
+Multipliers: true
+
+#Speed at which the server runs the selling task in ticks
+#Recommend 60, if lagging increase value
+taskDelay: 60
+
+#Hologram Update delay
+#The more players and more Void Chests placed the more demanding this is
+#Default is 15 seconds so value of 300
+hologramDelay: 300
+
+#Radius of the scan for items in autopickup mode
+scanSize: 3
+
+#GUI settings
+GUI:
+  name: '&3&lVoid Chest'
+  fillerItem: STAINED_GLASS_PANE
+  fillerItemDamage: 7
+
+paymentMsg: '&7&l(&2&l!&7&l) &a&l+ $%amount%'
+
+
+hologram:
+  enabled: true
+  height: 0.5
+  text:
+  - '&6&lVoidChest'
+  - ' '
+  - '&fOwner: &c%owner%'
+  - '&fMultiplier: &a%multi%x'
+  - '&fMoney stored: &b$%money%'
+  - '&fAuto-Pickup: &e%autopickup%'
+  - ' '
+  - '&7&oRight-Click to Open VoidChest'

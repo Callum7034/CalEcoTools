@@ -1,0 +1,58 @@
+#Config for Harvester Hoes
+#To enable or disable Harvester hoes check the main config.yml
+
+#The actual item that the harvester hoe is
+ItemType: DIAMOND_HOE
+
+#Make the wands have an enchanted effect
+Glow: true
+
+ItemName: '&6&l[!] &e&lHarvester Hoe'
+Lore: 
+  - ' '
+  - '    &a- Harvester Hoes are useful for breaking &fcane'
+  - ' '
+  - '    &b- Shift Right click while holding this &fHarvester Hoe '
+  - '                    &bto open the GUI'
+  - '  &7-----------------------------------'
+  - ' &7&lEnchantments:'
+#Enchants will be Added after this line ^ 
+
+
+Message: "&6&l[!] &eIn the past 10 seconds you have sold &9$%amount% &eworth of cane"
+
+#Command that is run when mobcoin is given
+mobcoinCommand: 'mobcoin give %player% %amount%'
+
+#Command that is run when key is given
+keyFinderCommand: 'cratekey give %player% basic'
+
+Enchants:
+  Cyborg:
+    Levels: 5
+    StartCost: 1000
+    IncreasePerLevel: 2
+  DropBooster:
+    Levels: 50
+    StartCost: 10000
+    IncreasePerLevel: 1.5
+  SellMulti:
+    Levels: 25
+    StartCost: 5000
+    IncreasePerLevel: 2
+  TokenBooster:
+    Levels: 50
+    StartCost: 7500
+    IncreasePerLevel: 1.2
+  MobcoinFinder:
+    Levels: 100
+    StartCost: 5000
+    IncreasePerLevel: 1.5
+  Autosell:
+    Levels: 1
+    StartCost: 100000
+    IncreasePerLevel: 1
+  KeyFinder:
+    Levels: 50
+    StartCost: 10000
+    IncreasePerLevel: 1.5

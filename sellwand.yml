@@ -1,0 +1,35 @@
+#Config for Sell Wands
+#To enable or disable sell wands check the main config.yml
+
+#The actual item that the sell wand is
+ItemType: CARROT_STICK
+
+#Make the wands have an enchanted effect
+Glow: true
+
+ItemName: '&6&l[!] &e&lSell Wand'
+Lore: 
+  - '&eUses: &3%uses%'
+  - '&eCurrent Multiplier: &3%multiplier%x'
+  - '  &7-----------------------------------'
+  - ' '
+  - '    &a- Sell Wands will &fsell &aall the contents of a chest'
+  - ' '
+  - '    &b- Right click on a chest holding this &fSell wand '
+  - '                    &bto sell the contents'
+
+
+#What will show instead of the number in the lore of the sell wand
+infiniteUses: 'Infinite'
+
+sellMessage: '&7&l(&2&l!&7&l) &a&l+ $%amount%'
+sellMessageBonus: '&7&l(&2&l!&7&l) &a&l+ $%amount%  &7&o(( Multiplier ))'
+
+hologram:
+  deleteDelay: 70
+  enabled: true
+  text:
+  - '&6&lSOLD'
+  - ' '
+  - '&f- &aAmount: &e$%amount%'
+  - '&f- &bItems: &ex%items%'
